@@ -1,0 +1,16 @@
+keycode 135 = Control_R
+keycode 134 = Control_R
+keycode 133 = Control_L
+keycode 66 = Tab
+keycode 23 = Next
+keycode 37 = Super_L
+keycode 105 = Prior
+clear Lock
+clear Control
+clear Mod4
+add Control = Control_R
+add Control = Control_L
+add Mod4 = Super_R Super_L
+
+keycode 65 = Tab NoSymbol Tab
+keycode 66 = space NoSymbol space
