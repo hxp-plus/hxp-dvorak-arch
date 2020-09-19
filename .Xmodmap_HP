@@ -1,9 +1,13 @@
-keycode 37 = space
-keycode 64 = Control_L
-keycode 108 = Alt_R
+keycode 134 = Control_R
+keycode 133 = Alt_L
 keycode 23 = Escape
+keycode 37 = Super_L
+keycode 64 = Control_L
+keycode 9 = F22
+keycode 105 = Caps_Lock
 keycode 65 = Tab
-keycode 134 = Super_L
+keycode 66 = space
+
 clear shift
 clear lock
 clear control
@@ -19,3 +23,4 @@ add mod1 = Alt_L Alt_R
 add mod2 = Num_Lock
 add mod4 = Super_L Super_R Hyper_L
 add mod5 = ISO_Level3_Shift Mode_switch
+
