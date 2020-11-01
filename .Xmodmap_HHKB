@@ -1,9 +1,5 @@
-keycode 37 = space
-keycode 64 = Control_L
-keycode 108 = Alt_R
-keycode 23 = Escape
-keycode 65 = Tab
-keycode 134 = Super_L
+keycode 66 = F22
+keycode 105 = Caps_Lock
 clear shift
 clear lock
 clear control
