@@ -22,18 +22,23 @@ fi
 # Check if a keyboard is assigned
 if [[ $1 = '' ]];then
   echo 'No keyboard is assigned, swiching to origin'
-  xmodmap '.Xmodmap_origin'
+  rm -f '.Xmodmap'
 fi
+
+echo 'Switching keyboard layout to origin'
+xmodmap '.Xmodmap_origin'
 
 # Change keyboard mapping
 if [[ $1 = 'HHKB' ]];then
   echo 'Switching to HHKB'
   xmodmap '.Xmodmap_HHKB'
+  cp -f '.Xmodmap_HHKB' '.Xmodmap'
 fi
 
 if [[ $1 = 'HP' ]];then
   echo 'Switching to HP'
   xmodmap '.Xmodmap_HP'
+  cp -f '.Xmodmap_HP' '.Xmodmap'
 fi
 
 echo 'Complete!'
